@@ -252,8 +252,8 @@
   </p>
 
   <div class="search">
-    <input type="search" placeholder="Search patents, inventions or technologies">
-    <button type="button">Search</button>
+    <input id="home-search" type="search" placeholder="Search patents, inventions or technologies">
+    <button id="home-search-button" type="button">Search</button>
   </div>
 
 </section>
@@ -266,15 +266,15 @@
 
     <div class="categories">
 
-      <a class="category" href="#">🤖 AI & Technology</a>
-      <a class="category" href="#">🧬 Health & Medicine</a>
-      <a class="category" href="#">⚡ Energy</a>
-      <a class="category" href="#">🚗 Transport</a>
-
-      <a class="category" href="#">🏠 Home & Construction</a>
-      <a class="category" href="#">🌱 Environment</a>
-      <a class="category" href="#">🏭 Industry</a>
-      <a class="category" href="#">💡 Other Inventions</a>
+      <a class="category" href="/patents/categories/chemistry-and-metallurgy/">🧪 Chemistry and Metallurgy (5)</a>
+      <a class="category" href="/patents/categories/construction/">🏠 Construction (5)</a>
+      <a class="category" href="/patents/categories/electricity/">⚡ Electricity (5)</a>
+      <a class="category" href="/patents/categories/emerging-technologies/">💡 Emerging Technologies (5)</a>
+      <a class="category" href="/patents/categories/human-necessities/">🧬 Human Necessities (5)</a>
+      <a class="category" href="/patents/categories/mechanical-engineering/">⚙️ Mechanical Engineering (5)</a>
+      <a class="category" href="/patents/categories/operations-and-transport/">🚗 Operations and Transport (5)</a>
+      <a class="category" href="/patents/categories/physics/">🔬 Physics (5)</a>
+      <a class="category" href="/patents/categories/textiles-and-paper/">📄 Textiles and Paper (5)</a>
 
     </div>
 
@@ -293,7 +293,7 @@
           PatentOctopus is preparing its continuously updated database of
           newly published patents from around the world.
         </p>
-        <a href="#">Explore soon →</a>
+        <a href="/patents/">Explore patents →</a>
       </article>
 
       <article class="patent">
@@ -303,7 +303,7 @@
           Follow new developments in artificial intelligence, medicine,
           transportation, energy and many other fields.
         </p>
-        <a href="#">Discover soon →</a>
+        <a href="/patents/">Discover patents →</a>
       </article>
 
       <article class="patent">
@@ -313,7 +313,7 @@
           Patent information will be organized into searchable topics,
           countries, dates and technology categories.
         </p>
-        <a href="#">Coming soon →</a>
+        <a href="/patents/">View latest patents →</a>
       </article>
 
     </div>
@@ -337,5 +337,21 @@
   Discover what the world invented.
 </footer>
 
+<script>
+  const searchInput = document.getElementById('home-search');
+  const searchButton = document.getElementById('home-search-button');
+
+  function openPatentSearch() {
+    const query = searchInput.value.trim();
+    window.location.href = '/patents/' + (
+      query ? '?q=' + encodeURIComponent(query) : ''
+    );
+  }
+
+  searchButton.addEventListener('click', openPatentSearch);
+  searchInput.addEventListener('keydown', event => {
+    if (event.key === 'Enter') openPatentSearch();
+  });
+</script>
 </body>
 </html>
