@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PatentOctopus – New Patents & Inventions Worldwide</title>
+
+  <meta name="description" content="Discover newly published patents, inventions and emerging technologies from around the world. PatentOctopus tracks innovation in AI, robotics, health, energy, mobility and more.">
+
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://patentoctopus.com/">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f6f7fb;
+      color: #151515;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0d1020;
+      color: white;
+      padding: 22px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .logo span {
+      color: #9b7cff;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #b9a5ff;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #171b34, #3e2468);
+      color: white;
+      padding: 85px 5%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(38px, 7vw, 76px);
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 780px;
+      margin: auto;
+      font-size: 20px;
+      color: #deddf0;
+    }
+
+    .hero-buttons {
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 22px;
+      margin: 6px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button-primary {
+      background: #9b7cff;
+      color: white;
+    }
+
+    .button-secondary {
+      background: white;
+      color: #171b34;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 55px 5%;
+    }
+
+    .section-title {
+      font-size: 34px;
+      margin-bottom: 25px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .category {
+      background: white;
+      border-radius: 12px;
+      padding: 22px;
+      text-decoration: none;
+      color: #171717;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+      font-weight: bold;
+      transition: 0.2s ease;
+    }
+
+    .category:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.10);
+    }
+
+    .patent-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 22px;
+    }
+
+    .patent-card {
+      background: white;
+      border-radius: 14px;
+      padding: 25px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    }
+
+    .patent-tag {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #7557d4;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .patent-card h3 {
+      font-size: 22px;
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+
+    .patent-card p {
+      color: #555;
+      font-size: 15px;
+    }
+
+    .patent-card a {
+      display: inline-block;
+      margin-top: 18px;
+      color: #6848cf;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .about {
+      background: #171b34;
+      color: white;
+      border-radius: 18px;
+      padding: 40px;
+    }
+
+    .about h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .about p {
+      color: #d6d7df;
+      max-width: 850px;
+    }
+
+    footer {
+      background: #0d1020;
+      color: #aaa;
+      padding: 35px 5%;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #c6b8ff;
+      text-decoration: none;
+    }
+
+    .languages {
+      margin-top: 15px;
+    }
+
+    .languages a {
+      margin: 0 6px;
+    }
+
+    @media(max-width:700px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin-left: 0;
+        margin-right: 14px;
+      }
+
+      .hero {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "PatentOctopus",
+    "url": "https://patentoctopus.com/",
+    "description": "Discover newly published patents and inventions from around the world."
+  }
+  </script>
+
+</head>
+
+<body>
+
+<header>
+
+  <div class="logo">
+    🐙 Patent<span>Octopus</span>
+  </div>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="#latest">Latest Patents</a>
+    <a href="#categories">Categories</a>
+    <a href="#about">About</a>
+  </nav>
+
+</header>
+
+<section class="hero">
+
+  <h1>Discover What<br>The World Invented</h1>
+
+  <p>
+    PatentOctopus tracks newly published patents and transforms complex
+    patent information into clear, accessible stories about new inventions,
+    technologies and ideas from around the world.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="#latest" class="button button-primary">
+      Explore New Inventions
+    </a>
+
+    <a href="#categories" class="button button-secondary">
+      Browse Categories
+    </a>
+  </div>
+
+</section>
+
+<section class="section" id="categories">
+
+  <h2 class="section-title">Explore Innovation</h2>
+
+  <div class="categories">
+
+    <a class="category" href="#">🤖 AI & Software</a>
+
+    <a class="category" href="#">🦾 Robotics</a>
+
+    <a class="category" href="#">⚡ Energy</a>
+
+    <a class="category" href="#">🧬 Health & Medical</a>
+
+    <a class="category" href="#">🚗 Mobility</a>
+
+    <a class="category" href="#">🏭 Industry</a>
+
+    <a class="category" href="#">🏠 Consumer Technology</a>
+
+    <a class="category" href="#">💡 Weird Inventions</a>
+
+  </div>
+
+</section>
+
+<section class="section" id="latest">
+
+  <h2 class="section-title">Latest Inventions</h2>
+
+  <div class="patent-grid">
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Energy</div>
+
+      <h3>Self-Cooling Sunshade Using Evaporating Water</h3>
+
+      <p>
+        A cooling system designed to reduce temperatures beneath a sunshade
+        using controlled water evaporation across the canopy.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Artificial Intelligence</div>
+
+      <h3>AI System for Understanding Complex Visual Environments</h3>
+
+      <p>
+        A newly published technology proposes improved machine-learning
+        methods for recognizing and interpreting objects in changing scenes.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Robotics</div>
+
+      <h3>Autonomous Robot Designed for Flexible Warehouse Tasks</h3>
+
+      <p>
+        A robotic system capable of adapting its movements and handling
+        different objects inside automated logistics environments.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Mobility</div>
+
+      <h3>New Vehicle System Designed to Reduce Energy Consumption</h3>
+
+      <p>
+        A transportation invention focused on improving energy efficiency
+        through intelligent control of vehicle systems.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Health</div>
+
+      <h3>Wearable Sensor for Continuous Health Monitoring</h3>
+
+      <p>
+        A compact wearable technology designed to measure physiological
+        signals continuously and provide digital health information.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+    <article class="patent-card">
+
+      <div class="patent-tag">Consumer Technology</div>
+
+      <h3>Smart Household Device Learns User Behaviour</h3>
+
+      <p>
+        A connected home technology that adapts automatically to recurring
+        user behaviour and environmental conditions.
+      </p>
+
+      <a href="#">
+        Discover this invention →
+      </a>
+
+    </article>
+
+  </div>
+
+</section>
+
+<section class="section" id="about">
+
+  <div class="about">
+
+    <h2>Why PatentOctopus?</h2>
+
+    <p>
+      Thousands of patent documents are published around the world.
+      Most are difficult for non-specialists to understand.
+      PatentOctopus makes innovation easier to discover by organizing
+      patents by technology, country, inventor and company and presenting
+      their central ideas in a readable format.
+    </p>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <strong>🐙 PatentOctopus.com</strong>
+
+  <p>
+    Discover new patents, inventions and technologies from around the world.
+  </p>
+
+  <div class="languages">
+    <a href="/en/">English</a>
+    <a href="/de/">Deutsch</a>
+    <a href="/fr/">Français</a>
+    <a href="/it/">Italiano</a>
+    <a href="/es/">Español</a>
+    <a href="/pt/">Português</a>
+    <a href="/ja/">日本語</a>
+    <a href="/ar/">العربية</a>
+  </div>
+
+</footer>
+
+</body>
+</html>
