@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:23:15.395742+00:00",
+  "generated_at": "2026-08-30T21:25:10.931684+00:00",
   "count": 45,
   "patents": [
     {
@@ -11,6 +11,7 @@
       "category_code": "H10B12/30",
       "category": "Electricity",
       "inventor_names": "",
+      "display_title": "New Memory arrays Patent",
       "slug": "us-re50874-e",
       "url": "https://patentoctopus.com/patents/us-re50874-e/"
     },
@@ -23,6 +24,7 @@
       "category_code": "G11B20/10027",
       "category": "Physics",
       "inventor_names": "",
+      "display_title": "New Data storage device comprising dual channel preamp circuit Patent",
       "slug": "us-re50873-e",
       "url": "https://patentoctopus.com/patents/us-re50873-e/"
     },
@@ -35,6 +37,7 @@
       "category_code": "G06Q10/00",
       "category": "Physics",
       "inventor_names": "",
+      "display_title": "New Device for controlling a safety-relevant process, method for testing the functionality of the device, and motor vehicle with the device Patent",
       "slug": "us-re50872-e",
       "url": "https://patentoctopus.com/patents/us-re50872-e/"
     },
@@ -47,6 +50,7 @@
       "category_code": "G01N21/3563",
       "category": "Physics",
       "inventor_names": "",
+      "display_title": "New Infrared imaging of biological material Patent",
       "slug": "us-re50871-e",
       "url": "https://patentoctopus.com/patents/us-re50871-e/"
     },
@@ -59,6 +63,7 @@
       "category_code": "A01H6/1448",
       "category": "Human Necessities",
       "inventor_names": "",
+      "display_title": "New Echinacea plant named ‘BullEchipur 122’ Patent",
       "slug": "us-pp37382-p3",
       "url": "https://patentoctopus.com/patents/us-pp37382-p3/"
     },
@@ -71,6 +76,7 @@
       "category_code": "A01H6/00",
       "category": "Human Necessities",
       "inventor_names": "",
+      "display_title": "New Brunnera plant named ‘Balfrosmic’ Patent",
       "slug": "us-pp37381-p2",
       "url": "https://patentoctopus.com/patents/us-pp37381-p2/"
     },
@@ -83,6 +89,7 @@
       "category_code": "A01H6/425",
       "category": "Human Necessities",
       "inventor_names": "",
+      "display_title": "New Pelargonium plant named ‘KLEPZ24852’ Patent",
       "slug": "us-pp37380-p3",
       "url": "https://patentoctopus.com/patents/us-pp37380-p3/"
     },
@@ -95,6 +102,7 @@
       "category_code": "A01H6/00",
       "category": "Human Necessities",
       "inventor_names": "",
+      "display_title": "New Guayule plant named ‘E-B2WN-13167’ Patent",
       "slug": "us-pp37376-p3",
       "url": "https://patentoctopus.com/patents/us-pp37376-p3/"
     },
@@ -107,6 +115,7 @@
       "category_code": "A01H6/7409",
       "category": "Human Necessities",
       "inventor_names": "",
+      "display_title": "New Strawberry plant named ‘LBR 96 1’ Patent",
       "slug": "us-pp37375-p3",
       "url": "https://patentoctopus.com/patents/us-pp37375-p3/"
     },
@@ -119,6 +128,7 @@
       "category_code": "H10W90/701",
       "category": "Electricity",
       "inventor_names": "",
+      "display_title": "New Package structure having second adhesive between side surface of semiconductor package and first adhesive Patent",
       "slug": "us-12610875-b2",
       "url": "https://patentoctopus.com/patents/us-12610875-b2/"
     },
@@ -131,6 +141,7 @@
       "category_code": "H01L24/05",
       "category": "Electricity",
       "inventor_names": "",
+      "display_title": "New Connection structural body with Cu—Cu bonding and roughened surface deposits Patent",
       "slug": "us-12610874-b2",
       "url": "https://patentoctopus.com/patents/us-12610874-b2/"
     },
@@ -143,6 +154,7 @@
       "category_code": "H01L25/0657",
       "category": "Electricity",
       "inventor_names": "",
+      "display_title": "New Integrated circuit package and method Patent",
       "slug": "us-12610873-b2",
       "url": "https://patentoctopus.com/patents/us-12610873-b2/"
     },
@@ -155,6 +167,7 @@
       "category_code": "H01L25/0652",
       "category": "Electricity",
       "inventor_names": "",
+      "display_title": "New Through-dielectric vias for direct connection and method forming same Patent",
       "slug": "us-12610871-b2",
       "url": "https://patentoctopus.com/patents/us-12610871-b2/"
     },
@@ -167,6 +180,7 @@
       "category_code": "G21H1/06",
       "category": "Physics",
       "inventor_names": "",
+      "display_title": "New Tritium uptake and storage via metal-organic frameworks (MOFS) for betavoltaic power sources Patent",
       "slug": "us-12609212-b2",
       "url": "https://patentoctopus.com/patents/us-12609212-b2/"
     },
@@ -179,6 +193,7 @@
       "category_code": "G21F9/165",
       "category": "Physics",
       "inventor_names": "",
+      "display_title": "New Method for solidifying radioactive waste comprising boron, and solid radioactive waste formed thereby Patent",
       "slug": "us-12609211-b2",
       "url": "https://patentoctopus.com/patents/us-12609211-b2/"
     },
@@ -191,6 +206,7 @@
       "category_code": "F42D5/05",
       "category": "Mechanical Engineering",
       "inventor_names": "",
+      "display_title": "New Blast shield apparatus and method Patent",
       "slug": "us-12607439-b2",
       "url": "https://patentoctopus.com/patents/us-12607439-b2/"
     },
@@ -203,6 +219,7 @@
       "category_code": "F42B10/06",
       "category": "Mechanical Engineering",
       "inventor_names": "",
+      "display_title": "New Projectile and firearm system Patent",
       "slug": "us-12607438-b2",
       "url": "https://patentoctopus.com/patents/us-12607438-b2/"
     },
@@ -215,6 +232,7 @@
       "category_code": "F42B5/02",
       "category": "Mechanical Engineering",
       "inventor_names": "",
+      "display_title": "New Cartridge with inner surface grooves for a conducted electrical weapon Patent",
       "slug": "us-12607437-b2",
       "url": "https://patentoctopus.com/patents/us-12607437-b2/"
     },
@@ -227,6 +245,7 @@
       "category_code": "F41J9/16",
       "category": "Mechanical Engineering",
       "inventor_names": "",
+      "display_title": "New System and method for recovery of undamaged frangible aerial targets Patent",
       "slug": "us-12607436-b2",
       "url": "https://patentoctopus.com/patents/us-12607436-b2/"
     },
@@ -239,6 +258,7 @@
       "category_code": "F41J5/04",
       "category": "Mechanical Engineering",
       "inventor_names": "",
+      "display_title": "New Method for detecting a shot hit with an inflatable shooting target and for providing a real-time indication of the hit Patent",
       "slug": "us-12607435-b2",
       "url": "https://patentoctopus.com/patents/us-12607435-b2/"
     },
@@ -251,6 +271,7 @@
       "category_code": "E21D21/004",
       "category": "Construction",
       "inventor_names": "",
+      "display_title": "New Dynamic rockbolt Patent",
       "slug": "us-12607123-b2",
       "url": "https://patentoctopus.com/patents/us-12607123-b2/"
     },
@@ -263,6 +284,7 @@
       "category_code": "E21D11/102",
       "category": "Construction",
       "inventor_names": "",
+      "display_title": "New Automated method and processing train for lining tunnels Patent",
       "slug": "us-12607122-b2",
       "url": "https://patentoctopus.com/patents/us-12607122-b2/"
     },
@@ -275,6 +297,7 @@
       "category_code": "E21C41/18",
       "category": "Construction",
       "inventor_names": "",
+      "display_title": "New Static crushing directional anchor withdrawal method at end of large-mining-height working face Patent",
       "slug": "us-12607121-b2",
       "url": "https://patentoctopus.com/patents/us-12607121-b2/"
     },
@@ -287,6 +310,7 @@
       "category_code": "E21B49/087",
       "category": "Construction",
       "inventor_names": "",
+      "display_title": "New Inter-well petrophysical assessment by nano-particle injection in the formation Patent",
       "slug": "us-12607120-b2",
       "url": "https://patentoctopus.com/patents/us-12607120-b2/"
     },
@@ -299,6 +323,7 @@
       "category_code": "E21B49/02",
       "category": "Construction",
       "inventor_names": "",
+      "display_title": "New In-situ stress measurement method Patent",
       "slug": "us-12607119-b2",
       "url": "https://patentoctopus.com/patents/us-12607119-b2/"
     },
@@ -311,6 +336,7 @@
       "category_code": "D21H27/005",
       "category": "Textiles and Paper",
       "inventor_names": "",
+      "display_title": "New Sanitary tissue product towels comprising non-wood fibers Patent",
       "slug": "us-12606961-b2",
       "url": "https://patentoctopus.com/patents/us-12606961-b2/"
     },
@@ -323,6 +349,7 @@
       "category_code": "D21H27/00",
       "category": "Textiles and Paper",
       "inventor_names": "",
+      "display_title": "New Stack-of-sheets package Patent",
       "slug": "us-12606960-b2",
       "url": "https://patentoctopus.com/patents/us-12606960-b2/"
     },
@@ -335,6 +362,7 @@
       "category_code": "D21H21/18",
       "category": "Textiles and Paper",
       "inventor_names": "",
+      "display_title": "New Treatment system for manufacture of paper, board or the like Patent",
       "slug": "us-12606959-b2",
       "url": "https://patentoctopus.com/patents/us-12606959-b2/"
     },
@@ -347,6 +375,7 @@
       "category_code": "D21H19/34",
       "category": "Textiles and Paper",
       "inventor_names": "",
+      "display_title": "New Oil resistant article Patent",
       "slug": "us-12606958-b2",
       "url": "https://patentoctopus.com/patents/us-12606958-b2/"
     },
@@ -359,6 +388,7 @@
       "category_code": "D21H11/00",
       "category": "Textiles and Paper",
       "inventor_names": "",
+      "display_title": "New Pulp mixture Patent",
       "slug": "us-12606957-b2",
       "url": "https://patentoctopus.com/patents/us-12606957-b2/"
     },
@@ -371,6 +401,7 @@
       "category_code": "C40B40/10",
       "category": "Chemistry and Metallurgy",
       "inventor_names": "",
+      "display_title": "New Humanized antibodies with ultralong complementary determining regions Patent",
       "slug": "us-12606937-b2",
       "url": "https://patentoctopus.com/patents/us-12606937-b2/"
     },
@@ -383,6 +414,7 @@
       "category_code": "C40B30/06",
       "category": "Chemistry and Metallurgy",
       "inventor_names": "",
+      "display_title": "New Compositions and methods for making novel T-cell receptors Patent",
       "slug": "us-12606936-b2",
       "url": "https://patentoctopus.com/patents/us-12606936-b2/"
     },
@@ -395,6 +427,7 @@
       "category_code": "C30B33/02",
       "category": "Chemistry and Metallurgy",
       "inventor_names": "",
+      "display_title": "New Silicon single crystal substrate for vapor phase growth, vapor phase growth substrate and methods for producing them Patent",
       "slug": "us-12606935-b2",
       "url": "https://patentoctopus.com/patents/us-12606935-b2/"
     },
@@ -407,6 +440,7 @@
       "category_code": "C30B29/406",
       "category": "Chemistry and Metallurgy",
       "inventor_names": "",
+      "display_title": "New Group III nitride crystal, group III nitride semiconductor, group III nitride substrate, and method for producing group III nitride crystal Patent",
       "slug": "us-12606934-b2",
       "url": "https://patentoctopus.com/patents/us-12606934-b2/"
     },
@@ -419,6 +453,7 @@
       "category_code": "C30B29/406",
       "category": "Chemistry and Metallurgy",
       "inventor_names": "",
+      "display_title": "New Method for manufacturing epitaxial substrate by irradiating a surface of a group iii nitride semiconductor layer with ultraviolet light in an atmosphere containing oxygen Patent",
       "slug": "us-12606933-b2",
       "url": "https://patentoctopus.com/patents/us-12606933-b2/"
     },
@@ -431,6 +466,7 @@
       "category_code": "B81B7/008",
       "category": "Operations and Transport",
       "inventor_names": "",
+      "display_title": "New MEMS device with movable electrode plate and feedback capacitor Patent",
       "slug": "us-12606432-b2",
       "url": "https://patentoctopus.com/patents/us-12606432-b2/"
     },
@@ -443,6 +479,7 @@
       "category_code": "B81B3/0021",
       "category": "Operations and Transport",
       "inventor_names": "",
+      "display_title": "New MEMS sensor package and its manufacturing method Patent",
       "slug": "us-12606431-b2",
       "url": "https://patentoctopus.com/patents/us-12606431-b2/"
     },
@@ -455,6 +492,7 @@
       "category_code": "B67D1/0042",
       "category": "Operations and Transport",
       "inventor_names": "",
+      "display_title": "New Retractable soda gun system Patent",
       "slug": "us-12606430-b2",
       "url": "https://patentoctopus.com/patents/us-12606430-b2/"
     },
@@ -467,6 +505,7 @@
       "category_code": "B67C11/02",
       "category": "Operations and Transport",
       "inventor_names": "",
+      "display_title": "New Molded one-piece funnel with support collar Patent",
       "slug": "us-12606429-b2",
       "url": "https://patentoctopus.com/patents/us-12606429-b2/"
     },
@@ -479,6 +518,7 @@
       "category_code": "B67B3/2066",
       "category": "Operations and Transport",
       "inventor_names": "",
+      "display_title": "New Capping chuck assembly for a filler, a capper and a filler having a capping chuck assembly Patent",
       "slug": "us-12606428-b2",
       "url": "https://patentoctopus.com/patents/us-12606428-b2/"
     },
@@ -491,6 +531,7 @@
       "category_code": "Y02E60/10",
       "category": "Emerging Technologies",
       "inventor_names": "ARIMOTO Shoichi, NAKAMURA YASUJI, OKAMOTO SHOTA",
+      "display_title": "New Energiespeichergerät Patent",
       "slug": "de-112024002700-t5",
       "url": "https://patentoctopus.com/patents/de-112024002700-t5/"
     },
@@ -503,6 +544,7 @@
       "category_code": "Y02P70/50",
       "category": "Emerging Technologies",
       "inventor_names": "SHENG DONGHUI, XU TENGFEI, ZHOU ZHICHANG",
+      "display_title": "New Batteriezelle und Batterie Patent",
       "slug": "de-112024002630-t5",
       "url": "https://patentoctopus.com/patents/de-112024002630-t5/"
     },
@@ -515,6 +557,7 @@
       "category_code": "Y02E60/10",
       "category": "Emerging Technologies",
       "inventor_names": "LAI XIN, LI XILONG, WEI ZHIDA, XIE JICHUN",
+      "display_title": "New Gehäusebaugruppe für eine batterie und batterie Patent",
       "slug": "de-112024002122-t5",
       "url": "https://patentoctopus.com/patents/de-112024002122-t5/"
     },
@@ -527,6 +570,7 @@
       "category_code": "Y02P10/25",
       "category": "Emerging Technologies",
       "inventor_names": "FUJII TAKAFUMI, ITO TAMAKI, MARUMOTO KEITA, MORITA DAIJI, ODA CHISAKO, YAMAMOTO MOTOMICHI, YUZAWA TAKASHI",
+      "display_title": "New Additives fertigungsverfahren, additive fertigungsvorrichtung und verfahren zur herstellung eines additiv fertigten objekts Patent",
       "slug": "de-112023006490-t5",
       "url": "https://patentoctopus.com/patents/de-112023006490-t5/"
     },
@@ -539,6 +583,7 @@
       "category_code": "Y02T10/72",
       "category": "Emerging Technologies",
       "inventor_names": "CUI ZHAOXUE, KONG XUEJUAN, ZOU DINGCHAO",
+      "display_title": "New Electric motor controller, vehicle brake system and electric vehicle Patent",
       "slug": "ep-4727006-a1",
       "url": "https://patentoctopus.com/patents/ep-4727006-a1/"
     }
